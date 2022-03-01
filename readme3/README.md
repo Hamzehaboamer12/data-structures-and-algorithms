@@ -17,7 +17,7 @@ Found value in array with using binary search tree
 
 ---
 
-![alt text](array-binary-search.png)
+![alt text](array%20-%20search%20.png)
 
 ---
 

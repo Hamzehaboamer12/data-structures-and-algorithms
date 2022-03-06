@@ -5,23 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db30551a-dba2-4918-9afa-9b69080bd7f2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/data/structures/and/algorithms/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/data/structures/and/algorithms/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/data/structures/and/algorithms/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/data/structures/and/algorithms/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/data/structures/and/algorithms/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/data/structures/and/algorithms/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/data/structures/and/algorithms/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/data/structures/and/algorithms/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/data/structures/and/algorithms/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/data/structures/and/algorithms/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/data/structures/and/algorithms/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/data/structures/and/algorithms/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,9 +72,8 @@
   </component>
   <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="14" />
       <option name="MAIN_CLASS_NAME" value="data.structures.and.algorithms.App" />
-      <module name="data-structures-and-algorithms.app.main" />
+      <module name="data-structures-and-algorithms.app.test" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -114,5 +103,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/data_structures_and_algorithms$App.ic" NAME="App Coverage Results" MODIFIED="1646498166064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

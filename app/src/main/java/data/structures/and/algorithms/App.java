@@ -23,5 +23,11 @@ public class App {
         System.out.println("Does your value exist ? " + list1.include(5));
         System.out.println("Does your value exist ? " + list1.include(25));
         System.out.println(list1.toString());
+//        System.out.println(list1.Append(5));
+        System.out.println(list1.insertBefore(9 , 11));
+        System.out.println(list1);
+        System.out.println(list1.insertAfter(9 , 11));
+        System.out.println(list1);
+
     }
 }

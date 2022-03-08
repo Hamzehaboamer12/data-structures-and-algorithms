@@ -20,6 +20,11 @@ public class App {
         list1.insert(5);
         list1.insert(20);
 
+//        list1.insert(10);
+//        list1.insert(8);
+//        list1.insert(20);
+//        list1.insert(14);
+
         System.out.println("Does your value exist ? " + list1.include(5));
         System.out.println("Does your value exist ? " + list1.include(25));
         System.out.println(list1.toString());
@@ -28,6 +33,10 @@ public class App {
         System.out.println(list1);
         System.out.println(list1.insertAfter(9 , 11));
         System.out.println(list1);
+        list1.kthFromEnd(15);
+        list2.getHeadValue();
+        list2.getLastValue();
+
 
     }
 }

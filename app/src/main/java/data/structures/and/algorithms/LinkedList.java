@@ -105,6 +105,8 @@ public class LinkedList<T> {
 
         return "Number Before Is Added";
     }
+
+
     public String insertAfter(T value, T newVal) {
 
         Node curr = head;
@@ -121,6 +123,52 @@ public class LinkedList<T> {
 
         return "Number After Is Added";
 
+    }
+
+
+    public T kthFromEnd(int k){
+        if(k < 0 || head == null) {
+            return null;
+        }
+
+        Node<T> pointer = head;
+        Node<T> pointer2 = head;
+        int count = 0;
+
+        while(pointer.next != null) {
+            pointer = pointer.next;
+            count++;
+            if(count > k) {
+                pointer2 = pointer2.next;
+            }
+        }
+
+        if(count < k) {
+            return null;
+        }
+        return pointer2.value;
+
+    }
+
+
+
+    public T getHeadValue() {
+        if(this.head == null) {
+            return null;
+        }
+        return this.head.value;
+    }
+
+
+    public T getLastValue() {
+        if(this.head == null) {
+            return null;
+        }
+        Node<T> tempRef = this.head;
+        while(tempRef.next != null) {
+            tempRef = tempRef.next;
+        }
+        return tempRef.value;
     }
 
 

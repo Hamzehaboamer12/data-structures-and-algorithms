@@ -12,6 +12,7 @@ public class App {
 
     static final LinkedList<Integer> list1 = new LinkedList<>();
     static final LinkedList<Integer> list2 = new LinkedList<>();
+    static final LinkedList<Integer> list3 = new LinkedList<>();
 
     public static void main(String[] args) {
         System.out.println(new App().getGreeting());
@@ -36,6 +37,35 @@ public class App {
         list1.kthFromEnd(15);
         list2.getHeadValue();
         list2.getLastValue();
+
+        System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+
+
+        LinkedList llist1 = new LinkedList();
+        LinkedList llist2 = new LinkedList();
+        llist1.Append(5);
+        llist1.Append(0);
+        llist1.Append(4);
+
+        System.out.println("First Linked List:");
+        System.out.println(llist1.toString());
+
+        llist2.Append(6);
+        llist2.Append(4);
+        llist2.Append(2);
+        llist2.Append(0);
+        llist2.Append(9);
+        llist2.Append(8);
+
+        System.out.println("Second Linked List:");
+        System.out.println(llist2.toString());
+
+        System.out.println("merged  linked list:");
+
+        System.out.println(list3.ziplists( llist1 , llist2));
+
+
+
 
 
     }

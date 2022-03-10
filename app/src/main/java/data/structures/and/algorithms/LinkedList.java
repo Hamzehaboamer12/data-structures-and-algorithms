@@ -171,6 +171,26 @@ public class LinkedList<T> {
         return tempRef.value;
     }
 
+    public  LinkedList<T> ziplists(LinkedList<T> head1, LinkedList<T> head2){
+        Node<T> pointerOne = head1.head;
+        Node<T> pointerTwo = head2.head;
+
+        LinkedList<T> mergedList = new LinkedList<>();
+
+        while (pointerOne != null || pointerTwo != null){
+            if(pointerOne != null){
+                mergedList.Append(pointerOne.value);
+                pointerOne = pointerOne.next;
+            }
+            if(pointerTwo != null){
+                mergedList.Append(pointerTwo.value);
+                pointerTwo = pointerTwo.next;
+            }
+        }
+        return mergedList;
+    }
+
+
 
 
 

@@ -10,6 +10,7 @@ class AppTest {
     private LinkedList<Integer> testList;
     private LinkedList<Integer> testList1;
     private LinkedList<Integer> testList2;
+    private LinkedList<Integer> mergedList;
     @Test void appHasAGreeting() {
         App classUnderTest = new App();
         assertNotNull(classUnderTest.getGreeting(), "app should have a greeting");
@@ -109,5 +110,26 @@ class AppTest {
         assertNull(null, testList.kthFromEnd(-1));
     }
 
+    @Test
+    public void testziplists(){
+        testList1 = new LinkedList<>();
+        testList2 = new LinkedList<>();
+        mergedList = new LinkedList<>();
 
-}
+        testList1.Append(10);
+        testList1.Append(2);
+        testList1.Append(1);
+
+        testList2.Append(5);
+        testList2.Append(6);
+        testList2.Append(9);
+
+        assertEquals("{10} -> {5} -> {2} -> {6} -> {1} -> {9} -> Null", mergedList.ziplists(testList1, testList2).toString());
+
+
+
+
+
+    }}
+
+

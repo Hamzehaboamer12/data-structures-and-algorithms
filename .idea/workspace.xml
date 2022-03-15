@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db30551a-dba2-4918-9afa-9b69080bd7f2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Read07/README.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Read07/Read07" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/stackandqueue/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/stackandqueue/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/stackandqueue/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/stackandqueue/stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/stackandqueue/AppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/data/structures/and/algorithms/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/data/structures/and/algorithms/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/data/structures/and/algorithms/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/data/structures/and/algorithms/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/data/structures/and/algorithms/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/data/structures/and/algorithms/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/data/structures/and/algorithms/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/data/structures/and/algorithms/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,14 +69,25 @@
       <recent name="C:\Users\Hamzeh Abu Amer\data-structures-and-algorithms\readme" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="data.structures.and.algorithms.App" />
+      <option name="MAIN_CLASS_NAME" value="stackandqueue.App" />
       <module name="data-structures-and-algorithms.app.test" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="data.structures.and.algorithms.App" />
+      <module name="data-structures-and-algorithms.app.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.App" />
+      <item itemvalue="Application.Unnamed" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

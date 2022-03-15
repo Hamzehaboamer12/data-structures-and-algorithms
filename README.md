@@ -19,6 +19,6 @@
 | Linked-List-insertion  |  [ Linked-List-insertion ](Read05/README.md) |
 | linked-list-kth |  [ Linked-List-Kth ](Read06/README.MD) |
 | linked-list-zip |  [ Linked-List-zip ](Read07/README.MD) |
-| stack and queue |  [ stack and queue ](Read08/README.MD) |
+| stack and queue |  [ stack and queue ](Read08.MD) |
 
 

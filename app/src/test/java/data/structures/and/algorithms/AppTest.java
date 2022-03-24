@@ -4,6 +4,10 @@
 package data.structures.and.algorithms;
 
 import org.junit.jupiter.api.Test;
+
+
+import java.util.Stack;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class AppTest {
@@ -11,8 +15,11 @@ class AppTest {
     private LinkedList<Integer> testList1;
     private LinkedList<Integer> testList2;
     private LinkedList<Integer> mergedList;
+
+
     @Test void appHasAGreeting() {
         App classUnderTest = new App();
+        stack test = new stack();
         assertNotNull(classUnderTest.getGreeting(), "app should have a greeting");
     }
     public void testInsert(){
@@ -130,6 +137,39 @@ class AppTest {
 
 
 
-    }}
+    }
+
+
+
+
+
+
+    @Test
+        public void balanced () {
+        stack test = new stack();
+
+
+        assertTrue(test.BracketsBalanced("({[hamzeh]})"));
+
+        }
+
+
+        @Test
+        public void notBalanced () {
+        stack test = new stack();
+
+            assertFalse(test.BracketsBalanced ("({[hamzeh]}))"));
+
+        }
+
+
+
+
+
+
+
+
+
+}
 
 

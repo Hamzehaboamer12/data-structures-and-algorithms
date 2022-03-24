@@ -4,9 +4,18 @@
 package data.structures.and.algorithms;
 
 import org.junit.jupiter.api.Test;
+ stack-queue-brackets
 
 
 import java.util.Stack;
+
+import stack.queue.animal.shelter.AnimalShelter;
+import stack.queue.animal.shelter.Cat;
+import stack.queue.animal.shelter.Dog;
+import stackandqueue.Queue;
+
+import java.util.NoSuchElementException;
+
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -139,6 +148,7 @@ class AppTest {
 
     }
 
+ stack-queue-brackets
 
 
 
@@ -171,5 +181,61 @@ class AppTest {
 
 
 }
+=======
+    @Test
+    public void test1() throws Exception {
+        Dog testDog = new Dog("doggy");
+        Queue<Dog> testDogQ = new Queue<>();
+        testDogQ.enqueue(testDog);
+        String expected="doggy";
+
+        assertEquals(expected,testDogQ.dequeue().getName());
+    }
+
+
+    @Test
+    public void test2() throws Exception {
+        Dog dog1 = new Dog("dog");
+        Cat cat1 = new Cat("cat");
+        AnimalShelter Shelter = new AnimalShelter();
+        Shelter.enqueue(dog1);
+        Shelter.enqueue(cat1);
+        Shelter.dequeue("tiger");
+        Throwable exception = assertThrows(NoSuchElementException.class, () -> {
+            throw new NoSuchElementException("This shelter Just For dogs and cats");
+        });
+        assertEquals("This shelter Just For dogs and cats", exception.getMessage());
+
+    }
+
+    @Test
+    public void dequeue() throws Exception {
+
+        Dog dog1 = new Dog("dog11111");
+        Cat cat1 = new Cat("cat11111");
+        Dog dog2 = new Dog("dog2");
+        Cat cat2 = new Cat("cat2");
+        Dog dog3 = new Dog("dog3");
+        Cat cat3 = new Cat("cat3");
+        AnimalShelter Shelter = new AnimalShelter();
+        Shelter.enqueue(dog1);
+        Shelter.enqueue(cat1);
+        Shelter.enqueue(dog2);
+        Shelter.enqueue(cat2);
+        Shelter.enqueue(dog3);
+        Shelter.enqueue(cat3);
+        String expectedcat="cat11111";
+        String expecteddog="dog11111";
+
+        assertEquals(expectedcat,Shelter.dequeue("cat").getName());
+        assertEquals(expecteddog,Shelter.dequeue("dog").getName());
+
+
+    }
+}
+
+
+
+ main
 
 

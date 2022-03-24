@@ -4,12 +4,18 @@
 package data.structures.and.algorithms;
 
 import org.junit.jupiter.api.Test;
+ stack-queue-brackets
+
+
+import java.util.Stack;
+
 import stack.queue.animal.shelter.AnimalShelter;
 import stack.queue.animal.shelter.Cat;
 import stack.queue.animal.shelter.Dog;
 import stackandqueue.Queue;
 
 import java.util.NoSuchElementException;
+
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -18,8 +24,11 @@ class AppTest {
     private LinkedList<Integer> testList1;
     private LinkedList<Integer> testList2;
     private LinkedList<Integer> mergedList;
+
+
     @Test void appHasAGreeting() {
         App classUnderTest = new App();
+        stack test = new stack();
         assertNotNull(classUnderTest.getGreeting(), "app should have a greeting");
     }
     public void testInsert(){
@@ -139,6 +148,40 @@ class AppTest {
 
     }
 
+ stack-queue-brackets
+
+
+
+
+
+    @Test
+        public void balanced () {
+        stack test = new stack();
+
+
+        assertTrue(test.BracketsBalanced("({[hamzeh]})"));
+
+        }
+
+
+        @Test
+        public void notBalanced () {
+        stack test = new stack();
+
+            assertFalse(test.BracketsBalanced ("({[hamzeh]}))"));
+
+        }
+
+
+
+
+
+
+
+
+
+}
+=======
     @Test
     public void test1() throws Exception {
         Dog testDog = new Dog("doggy");
@@ -193,5 +236,6 @@ class AppTest {
 
 
 
+ main
 
 

@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db30551a-dba2-4918-9afa-9b69080bd7f2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/data/structures/and/algorithms/stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/stack/queue/brackets/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Read10/Read10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Read10/Readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/data/structures/and/algorithms/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/data/structures/and/algorithms/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,6 +128,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.App" />
       <item itemvalue="Application.Unnamed" />
       <item itemvalue="Application.App4" />
       <item itemvalue="Gradle.AppTest" />

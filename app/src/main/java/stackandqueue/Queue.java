@@ -21,6 +21,7 @@ public class Queue<T> {
     }
 
     public T dequeue() throws Exception {
+
         if (front == null) {
             throw new Exception("Your Queue Is Empty!");
         }

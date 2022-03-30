@@ -10,6 +10,7 @@ public class BinaryTree {
     public ArrayList<Integer> preOrder = new ArrayList<>();
     public ArrayList<Integer> inOrder = new ArrayList<>();
     public ArrayList<Integer> postOrder = new ArrayList<>();
+    private int max=0;
 
 
     public node getRoot() {
@@ -72,6 +73,29 @@ public class BinaryTree {
             preOrder.add(node.getKey());
             preOrderTravers(node.getLeft());
             preOrderTravers(node.getRight());
+        }
+    }
+
+    public Integer getMaxValue(){
+        if (Root == null) {
+            System.out.println("Tree is Empty!");
+            return null;
+        }
+        else {
+            FindMax(Root);
+        }
+
+        return max;
+    }
+
+    private void FindMax(node node){
+
+        if(node != null) {
+            if(node.getKey() > max){
+                max = node.getKey();
+            }
+            FindMax(node.getLeft());
+            FindMax(node.getRight());
         }
     }
 }

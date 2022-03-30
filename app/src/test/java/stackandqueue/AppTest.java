@@ -91,6 +91,7 @@ public class AppTest {
         pq.enqueue(2);
         pq.enqueue(3);
         assertEquals("Top -> {1} -> {2} -> {3} -> Null", pq.toString());
+
     }
 
     @Test void testDequeue(){
@@ -99,6 +100,7 @@ public class AppTest {
         pq.enqueue(2);
         pq.enqueue(3);
         pq.dequeue();
+//        System.out.println(pq.toString());
         assertEquals("Top -> {2} -> {3} -> Null", pq.toString());
         pq.dequeue();
         pq.dequeue();

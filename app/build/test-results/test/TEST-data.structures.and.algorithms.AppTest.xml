@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="data.structures.and.algorithms.AppTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2022-03-23T21:35:17" hostname="HAMZEHABUAMER" time="0.123">
+  <properties/>
+  <testcase name="testIsIncludedTrue()" classname="data.structures.and.algorithms.AppTest" time="0.063"/>
+  <testcase name="balanced()" classname="data.structures.and.algorithms.AppTest" time="0.004"/>
+  <testcase name="notBalanced()" classname="data.structures.and.algorithms.AppTest" time="0.002"/>
+  <testcase name="testToString()" classname="data.structures.and.algorithms.AppTest" time="0.016"/>
+  <testcase name="testInsertAfter()" classname="data.structures.and.algorithms.AppTest" time="0.002"/>
+  <testcase name="addNodeToTheEnd()" classname="data.structures.and.algorithms.AppTest" time="0.001"/>
+  <testcase name="testKFromTheEnd()" classname="data.structures.and.algorithms.AppTest" time="0.002"/>
+  <testcase name="testziplists()" classname="data.structures.and.algorithms.AppTest" time="0.003"/>
+  <testcase name="testIsIncludedFalse()" classname="data.structures.and.algorithms.AppTest" time="0.001"/>
+  <testcase name="appHasAGreeting()" classname="data.structures.and.algorithms.AppTest" time="0.004"/>
+  <testcase name="testInsertBefore()" classname="data.structures.and.algorithms.AppTest" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

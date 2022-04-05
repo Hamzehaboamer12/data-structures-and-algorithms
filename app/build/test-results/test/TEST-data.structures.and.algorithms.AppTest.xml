@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="data.structures.and.algorithms.AppTest" tests="14" skipped="0" failures="1" errors="0" timestamp="2022-03-30T14:25:07" hostname="HamzehAbuAmer" time="0.483">
+<testsuite name="data.structures.and.algorithms.AppTest" tests="14" skipped="0" failures="1" errors="0" timestamp="2022-04-05T13:13:20" hostname="HamzehAbuAmer" time="0.199">
   <properties/>
-  <testcase name="testIsIncludedTrue()" classname="data.structures.and.algorithms.AppTest" time="0.135"/>
-  <testcase name="balanced()" classname="data.structures.and.algorithms.AppTest" time="0.021"/>
-  <testcase name="notBalanced()" classname="data.structures.and.algorithms.AppTest" time="0.009"/>
-  <testcase name="testToString()" classname="data.structures.and.algorithms.AppTest" time="0.056"/>
-  <testcase name="testInsertAfter()" classname="data.structures.and.algorithms.AppTest" time="0.002"/>
+  <testcase name="testIsIncludedTrue()" classname="data.structures.and.algorithms.AppTest" time="0.032"/>
+  <testcase name="balanced()" classname="data.structures.and.algorithms.AppTest" time="0.025"/>
+  <testcase name="notBalanced()" classname="data.structures.and.algorithms.AppTest" time="0.005"/>
+  <testcase name="testToString()" classname="data.structures.and.algorithms.AppTest" time="0.022"/>
+  <testcase name="testInsertAfter()" classname="data.structures.and.algorithms.AppTest" time="0.001"/>
   <testcase name="addNodeToTheEnd()" classname="data.structures.and.algorithms.AppTest" time="0.001"/>
-  <testcase name="test1()" classname="data.structures.and.algorithms.AppTest" time="0.043"/>
-  <testcase name="test2()" classname="data.structures.and.algorithms.AppTest" time="0.136"/>
-  <testcase name="testKFromTheEnd()" classname="data.structures.and.algorithms.AppTest" time="0.012"/>
+  <testcase name="test1()" classname="data.structures.and.algorithms.AppTest" time="0.017"/>
+  <testcase name="test2()" classname="data.structures.and.algorithms.AppTest" time="0.042"/>
+  <testcase name="testKFromTheEnd()" classname="data.structures.and.algorithms.AppTest" time="0.0"/>
   <testcase name="testziplists()" classname="data.structures.and.algorithms.AppTest" time="0.001"/>
   <testcase name="testIsIncludedFalse()" classname="data.structures.and.algorithms.AppTest" time="0.001"/>
-  <testcase name="appHasAGreeting()" classname="data.structures.and.algorithms.AppTest" time="0.036"/>
-  <testcase name="testInsertBefore()" classname="data.structures.and.algorithms.AppTest" time="0.0"/>
+  <testcase name="appHasAGreeting()" classname="data.structures.and.algorithms.AppTest" time="0.024"/>
+  <testcase name="testInsertBefore()" classname="data.structures.and.algorithms.AppTest" time="0.001"/>
   <testcase name="dequeue()" classname="data.structures.and.algorithms.AppTest" time="0.015">
     <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
 	at data.structures.and.algorithms.AppTest.dequeue(AppTest.java:227)

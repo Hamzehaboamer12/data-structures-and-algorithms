@@ -1,5 +1,7 @@
 package trees;
 
+import stackandqueue.Queue;
+
 import java.util.ArrayList;
 
 public class BinaryTree {
@@ -11,6 +13,7 @@ public class BinaryTree {
     public ArrayList<Integer> inOrder = new ArrayList<>();
     public ArrayList<Integer> postOrder = new ArrayList<>();
     private int max=0;
+
 
 
     public node getRoot() {
@@ -97,5 +100,29 @@ public class BinaryTree {
             FindMax(node.getLeft());
             FindMax(node.getRight());
         }
+    }
+    public ArrayList<Integer> breadthFirst(BinaryTree tree) throws Exception {
+
+        ArrayList<Integer> Array = new ArrayList<>();
+
+        Queue<node> nodes = new Queue<>();
+
+        if(tree.Root != null) {
+            nodes.enqueue(tree.Root);
+        }
+
+        while(nodes.getSize() > 0) {
+
+            node temp = nodes.dequeue();
+            Array.add(temp.getKey());
+
+            if(temp.getLeft() != null) {
+                nodes.enqueue(temp.getLeft());
+            }
+            if(temp.getRight() != null) {
+                nodes.enqueue(temp.getRight());
+            }
+        }
+        return Array;
     }
 }

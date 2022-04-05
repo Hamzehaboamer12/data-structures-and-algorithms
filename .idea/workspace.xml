@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a6c6203-5ac1-4e20-a22c-2023612e7d47" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ReadMax.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Read17.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" afterDir="false" />
@@ -13,22 +13,29 @@
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Read10/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Read10/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/data/structures/and/algorithms/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/data/structures/and/algorithms/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/data/structures/and/algorithms/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/data/structures/and/algorithms/LinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/data/structures/and/algorithms/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/data/structures/and/algorithms/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/data/structures/and/algorithms/stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/data/structures/and/algorithms/stack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/stackandqueue/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/stackandqueue/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/stackandqueue/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/stackandqueue/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/stackandqueue/PseudoQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/stackandqueue/PseudoQueue.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/stackandqueue/Queue.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/stackandqueue/Queue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/classes/java/test/stackandqueue/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/test/stackandqueue/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/classes/java/main/stackandqueue/stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/classes/java/main/stackandqueue/stack.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/reports/tests/test/classes/data.structures.and.algorithms.AppTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/reports/tests/test/classes/data.structures.and.algorithms.AppTest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/reports/tests/test/packages/data.structures.and.algorithms.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/reports/tests/test/packages/data.structures.and.algorithms.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/test-results/test/TEST-data.structures.and.algorithms.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/test-results/test/TEST-data.structures.and.algorithms.AppTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/stackandqueue/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/stackandqueue/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/trees/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/trees/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/trees/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/trees/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/stackandqueue/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/stackandqueue/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/stack/queue/brackets/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/stack/queue/brackets/AppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/test/java/trees/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/trees/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +86,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Gradle.AppTest">
+  <component name="RunManager" selected="Application.Unnamed">
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="trees.App" />
       <module name="data-structures-and-algorithms.app.main" />

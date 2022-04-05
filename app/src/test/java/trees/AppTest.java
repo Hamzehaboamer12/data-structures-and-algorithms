@@ -94,4 +94,22 @@ public class AppTest {
 
         assertEquals( 50, binaryTree.getMaxValue());
     }
+
+
+    // Test breadth first search
+
+    @Test
+    public  void  testBreadthFirst() throws Exception {
+        BinaryTree BinaryTree = new BinaryTree();
+
+        BinaryTree.setRoot(new node(1));
+        BinaryTree.getRoot().setLeft(new node(2));
+        BinaryTree.getRoot().setRight(new node(3));
+        BinaryTree.getRoot().getRight().setLeft(new node(7));
+        BinaryTree.getRoot().getRight().setRight(new node(8));
+        BinaryTree.getRoot().getLeft().setLeft(new node(5));
+        BinaryTree.getRoot().getLeft().setRight(new node(6));
+
+        assertEquals("[1, 2, 3, 5, 6, 7, 8]", BinaryTree.breadthFirst(BinaryTree).toString());
+    }
 }

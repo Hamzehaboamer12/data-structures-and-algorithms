@@ -21,7 +21,7 @@
 //        @Test
 //        public void balanced () {
 //            Stack<Character> test = new Stack();
-//            assertTrue(test.BracketsBalanced("({[hashem]})"));
+//            assertTrue(test.BracketsBalanced("({[hamzeh]})"));
 //
 //        }
 //
@@ -29,7 +29,7 @@
 //        @Test
 //        public void notBalanced () {
 //            Stack<String> bracket = new Stack<>();
-//            assertFalse(bracket.BracketsBalanced ("({[hashem]}))"));
+//            assertFalse(bracket.BracketsBalanced ("({[hamzhe]}))"));
 //
 //        }
 //        @Test
